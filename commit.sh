@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /path/to/your/repo
+cd /home/thquddnr123/AutoCommit/decreaseGuilty
 git add .
 git commit -m "Automated commit $(date)"
 git push origin master
