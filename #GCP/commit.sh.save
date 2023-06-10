@@ -1,0 +1,5 @@
+bash randomFile.sh $ 를 직접 커맨드로 작성했을땐 코드가 정상적으로 실행됩니다. 하지만 crontab -e 에서 */5 * * * * /home/thquddnr123/AutoCommit/decreaseGuilty/randomFile.sh#!/bin/bash
+cd /home/thquddnr123/AutoCommit/decreaseGuilty
+git add .
+git commit -m "Automated commit $(date)"
+git push origin main
